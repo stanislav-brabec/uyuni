@@ -1,3 +1,7 @@
+- Use minion fqdn instead of minion id as target in kiwi_collect_image
+  runner. If fqdn is not present or is localhost, use minion ip as
+  fallback (bsc#1170737)
+
 -------------------------------------------------------------------
 Wed May 20 11:06:24 CEST 2020 - jgonzalez@suse.com
 

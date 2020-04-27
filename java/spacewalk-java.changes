@@ -1,3 +1,6 @@
+- Pass minion ip to the kiwi_collect_image runner as fallback instead
+  of fqdn if not present (bsc#1170737)
+
 -------------------------------------------------------------------
 Wed May 20 10:55:24 CEST 2020 - jgonzalez@suse.com
 
